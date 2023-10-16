@@ -1,0 +1,143 @@
+body {
+  margin: 0;
+}
+#soil {
+  width: 100%;
+  height: 40vh;
+  background-image: linear-gradient(to bottom, #926829, #27221c);
+}
+#container {
+  overflow: hidden;
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: 60vh;
+  animation-name: day;
+  animation-direction: alternate;
+  animation-duration: 60s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  z-index: -2;
+}
+@keyframes day {
+  from {
+    background: #e0ffff;
+  }
+  to {
+    background: #000316;
+  }
+}
+#mountain {
+  position: absolute;
+  top: 45vh;
+  right: -200%;
+  width: 1500px;
+  height: 1000px;
+  background-color: #798034;
+  border-top-left-radius: 1000px;
+  border-top-right-radius: 1000px;
+  animation-name: runMountain;
+  animation-duration: 30s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  z-index: -1;
+}
+@keyframes runMountain {
+  from {
+    right: -100%;
+  }
+  to {
+    right: 200%;
+  }
+}
+
+#groupOfBut {
+  position: absolute;
+  bottom: 0;
+  right: -10%;
+  width: 100%;
+  display: flex;
+  justify-content: end;
+}
+.but {
+  position: absolute;
+  bottom: 0;
+  animation-name: runBut;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+#but1 {
+  animation-delay: 0s;
+}
+#but2 {
+  animation-delay: 1s;
+}
+#but3 {
+  animation-delay: 2s;
+}
+
+@keyframes runBut {
+  from {
+    right: -10%;
+  }
+  to {
+    right: 110%;
+  }
+}
+
+#groupOfTree {
+  position: absolute;
+  bottom: 0;
+  right: -15%;
+  width: 100%;
+  display: flex;
+  justify-content: end;
+}
+.mod {
+  position: absolute;
+  bottom: 0;
+  animation-name: runMod;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+#mod1 {
+  animation-delay: 0s;
+}
+#mod2 {
+  animation-delay: 2s;
+}
+#mod3 {
+  animation-delay: 4s;
+}
+
+@keyframes runMod {
+  from {
+    right: -5%;
+  }
+  to {
+    right: 115%;
+  }
+}
+
+#groupOfNohoi {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  animation-name: buzz;
+  animation-duration: 3ms;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+@keyframes buzz {
+  from {
+    bottom: 0;
+  }
+  to {
+    bottom: 2px;
+  }
+}

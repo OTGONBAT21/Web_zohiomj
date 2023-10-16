@@ -1,0 +1,38 @@
+footer {
+  height: 10vh;
+  background: gray;
+}
+body {
+  font: white;
+  text-align: center;
+}
+#box1 {
+  width: 49%;
+  height: 30vh;
+  background: green;
+  float: right;
+}
+#box2 {
+  width: 49%;
+  height: 30vh;
+  background: red;
+}
+#box3 {
+  margin: 15px 0px;
+  width: 49%;
+  height: 30vh;
+  background: blue;
+  float: right;
+}
+#box4 {
+  margin: 15px 0px;
+  width: 49%;
+  height: 30vh;
+  background: purple;
+}
+#next {
+  border: 1px solid black;
+  padding: 3px;
+  margin: 10px;
+  float: right;
+}

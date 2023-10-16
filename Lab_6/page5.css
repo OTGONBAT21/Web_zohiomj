@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100vh;
+  background: gray;
+}
+#box1 {
+  width: 34%;
+  height: 100vh;
+  background: red;
+}
+#box2 {
+  width: 66%;
+  height: 100vh;
+}
+#box3 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 70vh;
+  background: black;
+}
+#box4 {
+  width: 50%;
+  height: 70vh;
+  background-color: green;
+}
+#box5 {
+  width: 50%;
+  height: 70vh;
+  background-color: blue;
+}
+#box6 {
+  width: 100%;
+  height: 30vh;
+  background: orange;
+}

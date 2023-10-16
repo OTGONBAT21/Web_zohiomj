@@ -1,0 +1,29 @@
+body{ 
+    width: 100%;
+    height: full;
+    display: flex;
+    justify-content: center;
+    background-color: #243c53;
+}
+.sidebar{
+    background-color: white;
+    padding: 30px;
+    border-right: 2px solid black;
+}
+.container{
+    background-color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+img{
+    width: 200px;
+}
+table, th, td {
+    background-color: red;
+    width: 700px;
+    margin-top: 100px;
+    padding: 0;
+  }
+  th{
+      background-color:white;
+  }

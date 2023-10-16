@@ -1,0 +1,86 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:#ededeb;
+    width: 100%;
+    height: full;
+    padding: 0;
+    margin: 0;
+}
+
+table{
+    border-radius: 3px;
+    width: 80%;
+    background: red;
+}
+
+th{
+    background:white;
+}
+
+li,h3{
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    display: flex;
+    overflow: hidden;
+    width: 70%;
+    height: full;
+    background: white;
+    border-radius: 10px;
+    margin: 50px 0 50px 0;
+    box-shadow: 2px 2px 5px  gray;
+    gap: 8%;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    background: gray;
+    padding-left: 10px;
+    border-radius:0 0 0 20px;
+}
+p.header{
+    padding-top: 30px ;
+    margin: 0;
+    font-style: bold;
+    font-size: 60px;
+}
+#portrain{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#sidebar{
+    padding:20px;
+    width: 35%;
+    height: full;
+    background: #000033;
+    box-shadow: 2px 0px 4px #000033;
+}
+#main{
+    margin: 0;
+    width: 100%;
+    height: max-content;
+}
+#text{
+    margin-top: 20px;
+    padding:0 20px ;
+    font-style: bold;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#table{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    width: 100%;
+}
+#lab_4{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}

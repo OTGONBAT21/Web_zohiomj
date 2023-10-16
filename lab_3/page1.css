@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+div{
+    width: 100%;
+    height: 42.5vh;
+}
+#navbar{
+    height: 15vh;
+    width: 100%;
+    background: red;
+}
+#body{
+    display: flex;
+    width: 100%;
+}
+#l{
+    width: 20%;
+    height: 100px;
+}
+#r{
+    background: rgb(0, 255, 0);
+    height:85vh;
+}
+
+
+.mapouter {
+    width: 400px;
+    height: 200px;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+}
+
+.gmap_iframe {
+    width: 400px;
+    height: 200px;
+    border-radius: 10px;
+}

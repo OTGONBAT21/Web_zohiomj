@@ -1,0 +1,10 @@
+table,th{
+    border: 1px solid black;
+}
+th{
+    width: 150px;
+}
+body{
+    display: flex;
+    gap: 50px;
+}
